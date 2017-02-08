@@ -15,7 +15,8 @@
 </head>
 <body>
         <div class="jumbotron">
-                <div class="container">
+            <div class="bg">
+                <div class="container maincontainter" style="height: 549px; width:960px;">
                     <div class="row">
                     <nav class="navbar navbar-static-top" id="navvy">
                         <div class="navbar-header">
@@ -34,7 +35,7 @@
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="#login">Log In</a></li>
-                                <li><a href="#signup" role="button">SignUp</a></li>
+                                <li><a ref="#signup" role="button" id="buttonsign">SignUp</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </nav>
@@ -44,12 +45,15 @@
                         <img id="yelp" src="images/yelp_fullcolor_outline.png" />
                     </div>
                     <div>
-                        <input type="text" class="search-query form-control" placeholder="Find    tacos, cheap drinks, donuts>                                                                                                 | Near    Cleveland, OH" />
+                        <div class="row">
+                            <div column=""
+                        <input type="text" class="search-query form-control" placeholder="Find    tacos, cheap drinks, donuts     | Near    Cleveland, OH" />
                         <span class="input-group-btn">
                             <button class="btn btn-danger" type="button">
                                 <span class=" glyphicon glyphicon-search"></span>
                             </button>
                         </span>
+                            </div>
                     </div>
                     <div class="row Glifs">
                         <div class="col-sm-2"></div>
@@ -60,5 +64,6 @@
                     </div>
                 </div>
             </div>
+    </div>
 </body>
 </html>
