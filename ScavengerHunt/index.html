@@ -33,7 +33,7 @@
                                 <li><a href="#events">Events</a></li>
                                 <li><a href="#talk">Talk</a></li>
                             </ul>
-                            <ul class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav navbar-right" style="padding-right:15px;">
                                 <li><a href="#login">Log In</a></li>
                                 <li><a ref="#signup" role="button" id="buttonsign">SignUp</a></li>
                             </ul>
@@ -46,13 +46,12 @@
                     </div>
                     <div>
                         <div class="row">
-                            <div column=""
-                        <input type="text" class="search-query form-control" placeholder="Find    tacos, cheap drinks, donuts     | Near    Cleveland, OH" />
-                        <span class="input-group-btn">
-                            <button class="btn btn-danger" type="button">
-                                <span class=" glyphicon glyphicon-search"></span>
-                            </button>
-                        </span>
+                            <div class="span12">
+                                <div class="search">
+                                <form method="get" action="/" class="form-inline">
+                                    <input name="q" class="span5a" type="text" placeholder="Find: tacos, cheap dinner, pizza"><input name="loc" class="span5b" type="text" placeholder="|   Near: Cleveland, OH"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" style="font-size:18px;"></span></button>
+                                </form>
+                            </div>
                             </div>
                     </div>
                     <div class="row Glifs">
