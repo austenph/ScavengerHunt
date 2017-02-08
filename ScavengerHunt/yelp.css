@@ -1,6 +1,5 @@
 ﻿body {
 }
-
 /*JUMBOTRON, MAIN IMG*/
 .jumbotron {
     background-image: url('images/tablefood.jpg');
@@ -9,8 +8,8 @@
     padding-bottom: 0px;
     padding-top: 0px;
     height: 570px;
+    margin-bottom:0px;
 }
-
     .jumbotron .bg {
         background: rgba(51, 51, 51, 0.6);
         margin-bottom: inherit;
@@ -18,17 +17,14 @@
         height: 570px;
         padding-top: inherit;
     }
-
 .row.logo {
     text-align: center;
 }
-
 #yelp {
     display: inline-block;
     float: none;
     width: inherit;
 }
-
 NAVBAR nav#navvy.navbar.navbar-static-top {
     color: white;
     position: absolute;
@@ -38,7 +34,6 @@ NAVBAR nav#navvy.navbar.navbar-static-top {
     width: 100%;
     background-color: transparent;
 }
-
 #navvy a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -48,63 +43,58 @@ NAVBAR nav#navvy.navbar.navbar-static-top {
     font-size: 14px;
     position: center;
 }
-
     #navvy a:hover {
         background: none;
-        border:transparent;
-            border-radius: 0;
-    border-bottom: 2px solid;
-    padding-bottom: 8px;
+        border: transparent;
+        border-radius: 0;
+        border-bottom: 2px solid;
+        padding-bottom: 8px;
     }
-#buttonsign{
-                border-radius: 0;
-        border: 2px solid;
+#buttonsign {
+    border-radius: 0;
+    border: 2px solid;
     padding-bottom: 8px;
 }
-
-
-
-.span5a{
-        font-family: Arial, Helvetica, sans-serif;
-    color:#666666;
+.span5a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
     font-size: 18px;
     font-weight: bold;
-        border-radius: 4px 0 0 4px;
-    width:450px;
-    height:45px;
-    padding-bottom:11px;
-    padding-top:11px;
-    padding-right:11px;
-    padding-left:11px;
-    margin:0px;
+    border-radius: 4px 0 0 4px;
+    width: 450px;
+    height: 45px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin: 0px;
     border: 0px;
 }
-.span5b{
-        font-family: Arial, Helvetica, sans-serif;
-    color:#666666;
+.span5b {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
     font-size: 18px;
     font-weight: bold;
-        border-radius: 0 0 0 0;
-    width:450px;
-    height:45px;
-    padding-bottom:11px;
-    padding-top:11px;
-    padding-right:11px;
-    padding-left:11px;
-    margin:0px;
+    border-radius: 0 0 0 0;
+    width: 450px;
+    height: 45px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin: 0px;
     border: 0px;
 }
-.btn.btn-primary{
-        border-radius: 0 4px 4px 0;
-    width:60px;
-        height:47px;
-        padding: 0px, 0px, 0px, 0px;
-        margin-bottom:3px;
-        border:0px;
-        background-image:none;
-        background-color:#D32323;
+.btn.btn-primary {
+    border-radius: 0 4px 4px 0;
+    width: 60px;
+    height: 47px;
+    padding: 0px, 0px, 0px, 0px;
+    margin-bottom: 3px;
+    border: 0px;
+    background-image: none;
+    background-color: #D32323;
 }
-
 .Glifs {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -115,16 +105,48 @@ NAVBAR nav#navvy.navbar.navbar-static-top {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-.credit{
-text-align:center;
+.credit {
+    text-align: center;
 }
-.credit p{
+    .credit p {
         font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+        font-size: 14px;
         color: white;
-display:inline-block;
-margin-top:220px;
-float:none;
-width:inherit;
-
+        display: inline-block;
+        margin-top: 220px;
+        float: none;
+        width: inherit;
+    }
+    .content{
+        text-align:center;
+               padding-top:36px;
+        margin-top:0px, 0px, 0px, 0px;
+         height: 68px;
+          width:960px;
+    }
+    .content h2{
+       font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+        font-weight:bold;
+        color: #D32323;
+          display: inline-block;
+        float: none;
+        width: inherit;
+        height:26px;
+        margin-bottom:6px;
+        margin-top:0px;
+    }
+    .location-bar {
+    border-bottom: 1px solid #ccc;
+}
+.content .list-inline a{
+font-family: Arial, Helvetica, sans-serif;
+font-weight:normal;
+        font-size: 14px;
+        color:#666666;
+}
+hr{
+            color:#666666;
+border:5px;
+border-color:#666666;
 }
