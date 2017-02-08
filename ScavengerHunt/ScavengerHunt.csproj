@@ -110,6 +110,8 @@
     <Content Include="images\pinkdrink.jpg" />
     <Content Include="images\salad.jpg" />
     <Content Include="images\tablefood.jpg" />
+    <Content Include="images\yelp_fullcolor_outline.png" />
+    <Content Include="images\Yelp_Logo.svg.png" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
     <Content Include="yelp.css" />

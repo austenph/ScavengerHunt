@@ -1,2 +1,79 @@
 ﻿body {
+
+}
+
+ .jumbotron{
+             background-image: url('images/tablefood.jpg');background-size:cover;
+             background-color:white;
+             padding-bottom:0px;
+             padding-top:0px;
+ }
+
+.row.logo{
+    text-align:center;
+}
+#yelp{
+   display:inline-block;
+   float:none;
+   width:inherit;
+}
+    /*
+.header{
+        background-color:black;
+            position:relative;  
+            margin-bottom: 50%;
+}
+.new{
+    padding-top:0px;
+    opacity:1;
+    background-color:white;
+}
+NAVBAR
+nav#navvy.navbar.navbar-static-top {
+    color: white;
+    z-index: 100;
+    position: absolute;
+    top: 30px;
+    z-index: 10;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+    background-color:transparent;
+}
+#navvy a {
+    margin-top:20px;
+    color:white;
+    font-family:Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+      position: center;
+    }
+#navvy a:hover{
+    background:none;
+    text-decoration:underline;
+}
+.header #largeimage{
+    top:0;    
+      width:100%;
+      height:inherit;
+      position:absolute;
+      opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#yelp{
+    opacity:1;
+    padding-top:50px;
+}
+
+#custom-search-input{
+    padding-top:300px;
+    margin-top:10px;
+}
+*/
+.Glifs{
+    padding-top:15px;
+        font-family:Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-weight:bold;
+    margin-bottom:0px;
+    padding-bottom:0px;
 }
